@@ -50,51 +50,40 @@
 										<td class="center">5.5</td>
 										<td class="center">A</td>
 									</tr>
-									
-
-
 								</tbody>
 							</table>
 				</div>
 				<div id="tab-2" class="tab-content">
 						<p></p>
 					<form id="validate-form" class="block-content form"  action="" method="post">
-							<fieldset>
-								<legend>General</legend>
-						<div class="_100">
+						<fieldset>
+								<legend>Principal</legend>
+						<div class="_50">
 							<p><label for="textfield">Nombre</label><input id="textfield" name="textfield" class="required" type="text" value="" /></p>
 						</div>
 
 						<div class="_100">
 							<p><label for="textarea">Descripcion</label><textarea id="textarea" name="textarea" class="required" rows="5"cols="40"></textarea></p>
 						</div>
+						
 						<div class="_25">
-							<p><label for="textfield">Costo</label><input id="textfield" name="textfield" class="required" type="text" value="" /></p>
+							<p><label for="datepicker">Valido Desde</label><input id="datepicker" name="datepicker" class="required" type="text" value="" /></p>
 						</div>
 
 						<div class="_25">
-							<p><label for="datepicker">Comienzo</label><input id="datepicker" name="datepicker" class="required" type="text" value="" /></p>
+							<p><label for="datepicker">Valido Hasta</label><input id="datepicker" name="datepicker" class="required" type="text" value="" /></p>
 						</div>
+						
 						<div class="_50">
-									<p>
-										<span class="label">Apto</span>
-										<label><input type="checkbox" name="checkbox" />Menores</label>
-										<label><input type="checkbox" />Adultos</label>
-										<label><input type="checkbox" />Hombres</label>
-										<label><input type="checkbox" />Mujeres</label>
-									</p>
-								</div>
-						<div class="_100">
 							<p>
-								<label for="select">Profesor</label>
+								<label for="select">Concepto</label>
 								<select>
-									<option>Alexis</option>
-									<option>Oski</option>
-									<option>Jackie</option>
+									<option>Concepto Unico Relacionado</option>
 								</select>
 							</p>
 						</div>
-					</fieldset>
+						</fieldset>
+						
 					<fieldset>
 						<legend>Cronograma</legend>
 							<div class="_100">
@@ -102,8 +91,8 @@
 							<table id="cronograma" class="table">
 							<thead>
 							<tr>
-							<th ></th>
-							<th >Domingo</th>
+							<th></th>
+							<th>Domingo</th>
 							<th>Lunes</th>
 							<th>Martes</th>
 							<th>Miercoles</th>
@@ -114,7 +103,77 @@
 							</thead>
 							<tbody>
 									<tr>
+										<td>08:00</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>08:30</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>09:00</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>09:30</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>10:00</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>10:30</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>									
+									<tr>
 										<td>11:00</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>11:30</td>
 										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
 										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
 										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
@@ -134,7 +193,47 @@
 										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
 									</tr>
 									<tr>
+										<td>12:30</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>13:00</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>13:30</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
 										<td >14:00</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>14:30</td>
 										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
 										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
 										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
@@ -154,7 +253,7 @@
 										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
 									</tr>
 									<tr>
-										<td >16:00</td>
+										<td>15:30</td>
 										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
 										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
 										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
@@ -173,14 +272,183 @@
 										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
 										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
 									</tr>
+									<tr>
+										<td>16:30</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td >17:00</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>17:30</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>18:00</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>18:30</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>19:00</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>19:30</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>20:00</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>20:30</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>21:00</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>21:30</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>22:00</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>22:30</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>23:00</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
+									<tr>
+										<td>23:30</td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+										<td id="h" class ="selectable"   style="padding-left:43px;"></td>
+									</tr>
 							<tr>
 
 							</tbody>
 							</table>
 							</div>
-
 							</fieldset>
-
+							
+							<fieldset>
+								<legend>Instructores</legend>
+							
+							<div class="_50">
+									<p></p>	<p></p>
+							<table id="cronograma" class="table">
+								<thead>
+									<tr>
+										<th>Instructor</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Lista de Nombres traidos de tabla</td>
+									</tr>
+								</tbody>
+							</table>
+							</div>
+							</fieldset>
+							
 								<div class="clear"></div>
 								<div class="block-actions">
 									<ul class="actions-left">
@@ -197,5 +465,4 @@
 				</div>
 
 	<div class="clear height-fix"></div>
-
 </div>

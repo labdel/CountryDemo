@@ -1,0 +1,164 @@
+	<div class="container_12">
+
+	<div class="grid_12">
+		<h1>Mascotas</h1>
+		<p>Desde aqui controle las mascotas asociadas a cada unidad</p>
+	</div>
+		<div class="grid_12">
+			<div class="block-border" id="tab-panel-1">
+				<div class="block-header">
+					<h1></h1>
+
+					<ul class="tabs">
+						<li><a href="#tab-1">Listado</a></li>
+						<li><a href="#tab-2">+</a></li>
+					</ul>
+				</div>
+				<div class="block-content tab-container">
+					<div id="tab-1" class="tab-content">
+
+							<table id="table-example" class="table">
+								<thead>
+									<tr>
+										<th>Codigo</th>
+										<th>Nombre</th>
+										<th>Especie</th>
+										<th>Raza</th>
+										<th>Color</th>
+										<th>Unidad</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="gradeX">
+										<td>PUF0010-1</td>
+										<td>Wendy</td>
+										<td>Canino</td>
+										<td>Labrador</td>
+										<td>Marron claro</td>
+										<td>UF0010 Pertinex Doma</td>
+									</tr>
+									<tr class="gradeC">
+										<td>PUF0005-1</td>
+										<td>Bartolo</td>
+										<td>Canino</td>
+										<td>Labrador</td>
+										<td>Marron</td>
+										<td>UF0005 Labarte Cia.</td>
+									</tr>
+									<tr class="gradeA">
+										<td>GUF0001-1</td>
+										<td>Dona</td>
+										<td>Felino</td>
+										<td>Siames</td>
+										<td>Gris</td>
+										<td>UF0001 Partisoma/Diverto</td>
+									</tr>
+								</tbody>
+							</table>
+				</div>
+				<div id="tab-2" class="tab-content">
+						<p></p>
+					<form id="validate-form" class="block-content form"  action="" method="post">
+						<fieldset>
+								<legend>Principal</legend>
+						<div class="_25">
+							<p><label for="textfield">Codigo</label><input id="textfield" name="textfield" class="required" type="text" value="" /></p>
+						</div>
+
+						<div class="_100">
+							<p><label for="textfield">Nombre</label><input id="textfield" name="textfield" class="required" type="text" value="" /></p>
+						</div>
+						
+						<div class="_50">
+							<p>
+								<label for="select">Especie/Raza</label>
+								<select>
+									<option>Especie/Raza de tabla</option>
+								</select>
+							</p>
+						</div>
+						
+						<div class="_50">
+							<p><label for="textfield">Color</label><input id="textfield" name="textfield" class="required" type="text" value="" /></p>
+						</div>
+						
+						<div class="_25">
+							<p><label for="datepicker">Fecha Nacimiento</label><input id="datepicker" name="datepicker" class="required" type="text" value="" /></p>
+						</div>
+						
+						<div class="_25">
+							<p>
+								<span class="label">Sexo</span>
+								<label><input type="radio" name="radio" /> Hembra</label>
+								<label><input type="radio" name="radio" /> Macho</label>
+							</p>
+						</div>						
+
+						<div class="_25">
+							<p>
+								<span class="label">Tamano</span>
+								<label><input type="radio" name="radio" /> Chico</label>
+								<label><input type="radio" name="radio" /> Mediano</label>
+								<label><input type="radio" name="radio" /> Grande</label>
+							</p>
+						</div>
+
+						<div class="_100">
+							<p><label for="textarea">Marcas Distintivas</label><textarea id="textarea" name="textarea" class="required" rows="5"cols="40"></textarea></p>
+						</div>
+					
+						</fieldset>
+						
+					<fieldset>
+						<legend>Vacunas</legend>
+							<div class="_100">
+							<table id="table-example" class="table">
+								<thead>
+									<tr>
+										<th>Fecha</th>
+										<th>Vacuna</th>
+										<th>Descripcion</th>
+										<th>Vencimiento</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr class="gradeX">
+										<td>10-Dec-2011</td>
+										<td>Antirrabica</td>
+										<td></td>
+										<td>10-Dec-2012</td>
+									</tr>
+									<tr class="gradeC">
+										<td>14-Jun-2012</td>
+										<td>Moquillo</td>
+										<td></td>
+										<td>14-Jun-2013</td>
+									</tr>
+									<tr class="gradeA">
+										<td>01-Nov-2012</td>
+										<td>Hepatitis</td>
+										<td></td>
+										<td>01-Nov-2013r</td>
+									</tr>
+								</tbody>
+							</table>
+							</div>
+							</fieldset>
+														
+								<div class="clear"></div>
+								<div class="block-actions">
+									<ul class="actions-left">
+										<li><a class="button red" id="reset-validate-form" href="javascript:void(0);">Reset</a></li>
+									</ul>
+									<ul class="actions-right">
+										<li><input type="submit" class="button" value="Crear!"></li>
+									</ul>
+								</div>
+							</form>
+						</div>
+					</div>
+					</div>
+				</div>
+
+	<div class="clear height-fix"></div>
+</div>

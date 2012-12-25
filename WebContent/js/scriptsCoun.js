@@ -22,22 +22,41 @@ function  createTabs (container) {
 
 function  actualizarPantalla (type) {
     
-	$("#main-content").empty()
+	$("#main-content").empty();
 	$("#main-content").load('../snippets/' + type +'.html', function() {
-	 	createTabs($("#tab-panel-1"))
+	 	createTabs($("#tab-panel-1"));
 	});
 }
 	
 function  bindMenuEvents () {
 	    
 	$('#actividad').bind("click", function(e) {
-		actualizarPantalla("actividad")
+		actualizarPantalla("actividad");
 
 });
 	
 	$('#reclamo').bind("click", function(e) {
-		actualizarPantalla("reclamo")
+		actualizarPantalla("reclamo");
+		});
+
+	$('#provincia').bind("click", function(e) {
+		actualizarPantalla("provincia");
 });
 
+	$('#ciudad').bind("click", function(e) {
+		actualizarPantalla("ciudad");
+});
+
+	$('#localidad').bind("click", function(e) {
+		actualizarPantalla("localidad");
+});
+	
+	$('#mascota').bind("click", function(e) {
+		actualizarPantalla("mascota");
+});
+	
+	$('#vehiculo').bind("click", function(e) {
+		actualizarPantalla("vehiculo");
+});	
 }
 
